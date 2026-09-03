@@ -1,4 +1,17 @@
-// Versão simples
-export default function Loading() {
-  return <p>Carregando vagas…</p>;
+// Este arquivo já existe desde a aula 02 e quase nunca aparecia — não havia
+// o que esperar. Agora há uma rede no caminho, e ele passa a ter trabalho.
+
+export default function Carregando() {
+  return (
+    // A REGRA: o esqueleto tem MAIS OU MENOS a altura do conteúdo real.
+    // Um "Carregando..." de uma linha no lugar de um bloco de 300px faz a
+    // página inteira pular quando o dado chega — e o dedo de quem já ia
+    // clicar acerta outra coisa.
+    <div className="esqueleto" aria-busy="true">
+      <div className="barra titulo" />
+      <div className="barra" />
+      <div className="barra" />
+      <div className="barra curta" />
+    </div>
+  );
 }

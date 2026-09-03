@@ -1,0 +1,12 @@
+[
+  {
+    "id": "1",                          
+    "titulo": "Pessoa Desenvolvedora Front-end Júnior",
+    "empresa": "Aurora Tech",
+    "empresaSlug": "aurora-tech",     
+    "senioridade": "Júnior",
+    "local": "Remoto",
+    "aceitaIniciante": true,
+    "descricao": "..."
+  } 
+]                           
