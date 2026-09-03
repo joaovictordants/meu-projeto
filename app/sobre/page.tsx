@@ -1,8 +1,17 @@
+import type { Metadata } from "next";
+
+// metadata da página sobrescreve a do layout
+export const metadata: Metadata = {
+  title: "Sobre mim · Meu primeiro Next",
+};
+
 export default function Sobre() {
   return (
-    <main>
+    <section>
       <h1>Sobre mim</h1>
-      <p>Meu nome é Fulana e este é meu primeiro projeto Next.js.</p>
-    </main>
+      <p>
+        Quem eu sou e o que espero deste semestre.
+      </p>
+    </section>
   );
 }
