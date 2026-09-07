@@ -14,9 +14,9 @@ export async function listarVagas(): Promise<Vaga[]> {
   // A LINHA QUE POUPA UMA HORA. Sem ela, um 404 do GitHub vira uma página
   // de erro em HTML, e o .json() abaixo quebra com "Unexpected token '<'"
   // — uma mensagem que não fala nem da URL, nem do arquivo.
-  if (!resposta.ok) {
+  if (!resposta.ok) 
     throw new Error(`vagas.json respondeu ${resposta.status}`);
-  }
+  
 
   return resposta.json();
 }
