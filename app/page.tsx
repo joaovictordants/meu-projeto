@@ -6,7 +6,7 @@ export default function Home() {
       <h1>Meu primeiro Next</h1>
       <p>
         O cabeçalho acima não está escrito neste arquivo — ele vem
-        do layout, e aparece em todas as páginas.
+        do layout, e aparece em todas as páginasaaaaaaaaaaaaaaaaaa.
       </p>
     </section>
   );
