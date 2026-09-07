@@ -6,3 +6,11 @@ export const metadata: Metadata = {
   title: "Empresas · Leque de Vagas",
   description: "As empresas que publicam vagas para quem está migrando para tecnologia.",
 };
+
+export default function EmpresasPage() {
+  return (
+    <div>
+      <h1>Empresas</h1>
+    </div>
+  );
+}
